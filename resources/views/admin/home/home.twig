@@ -1,0 +1,219 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+
+
+<div class="row">
+	<div class="col-md-8 offset-md-2">
+		<div class="page-header"><h1 class="page-title">Admin Dashboard</h1></div>
+		<div class="row row-cards">
+
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('post.create') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-edit-3"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Add Post</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('song.create') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-edit-3"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Add Song</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('video.create') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-edit-3"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Add Video</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			{# create Categories #}
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('post.category.create') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-folder-plus"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Create Forum Category</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('song.category.create') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-folder-plus"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Create Song Category</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('video.category.create') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-folder-plus"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Create Video Category</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('admin.posts') }}">
+					<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-edit"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Manage Posts</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('admin.songs') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-music"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Manage Songs</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('admin.videos') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-video"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Manage Videos</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			{# manage categories #}
+
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('post.categories') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-folder-minus"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Manage Forum Category</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('song.categories') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-folder-minus"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Manage Song Category</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-lg-4">
+				<div class="card dd1">
+					<a href="{{ path_for('video.categories') }}">
+						<div class="card-body p-3 text-center">
+							<div class="h1 m-0" >
+								<span style="font-size:60px; color:#343F47;  text-shadow:1px 1px 1px #343F47;">
+									<i class="fe fe-folder-minus"></i>
+								</span>
+							</div>
+							<div class="text-muted mb-4">
+								<span style="text-shadow:1px 1px 1px #343F47; color: #343F47;">Manage Video Category</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

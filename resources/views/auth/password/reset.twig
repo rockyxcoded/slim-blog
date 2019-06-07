@@ -1,0 +1,32 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+
+	<div class="row">
+        <div class="col col-login mx-auto">
+          <div class="text-center mb-6">
+          </div>
+          <form class="card" action="" method="post">
+            <div class="card-body p-6">
+            	<div class="card-title">Reset Password</div>
+                <p class="text-muted">Enter your email address, A link to reset your password will be sent to you.</p>
+            	<div class="form-group">
+            		<label class="form-label">Email Address</label>
+            		<input type="email" name="email" class="form-control {{ valErrors.email ? 'is-invalid' : '' }}" value="{{ old.email }}">
+
+            		{% if valErrors.email %}
+            			<div class="invalid-feedback"> {{ valErrors.email | first }} </div>
+            		{% endif %}
+            	</div>
+            	<div class="form-footer">
+            		<button type="submit" class="btn btn-primary btn-block">Reset Password</button>
+            	</div>
+            </div>
+          </form>
+          <div class="text-center text-muted">
+            Forget it, <a href="{{ path_for('auth.signin') }}">send me back</a> to the sign in screen.
+          </div>
+        </div>
+    </div>
+
+{% endblock %}

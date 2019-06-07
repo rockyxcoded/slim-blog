@@ -1,0 +1,56 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+
+	<div class="row">
+        <div class="col col-login mx-auto">
+          <form class="card" action="{{ path_for('auth.signup') }}" method="post">
+            <div class="card-body p-6">
+            	<div class="card-title">Create new account</div>
+            	<div class="form-group">
+            		<label class="form-label">Userame</label>
+            		<input type="text" name="username" class="form-control {{ valErrors.username ? 'is-invalid' : '' }}" placeholder="Enter name" value="{{ old.username }}" autofocus>
+
+            		{% if valErrors.username %}
+            			<div class="invalid-feedback"> {{ valErrors.username | first }} </div>
+            		{% endif %}
+            	</div>
+
+            	<div class="form-group">
+            		<label class="form-label">Email address</label>
+            		<input type="email" name="email" class="form-control {{ valErrors.email ? 'is-invalid' : '' }}" placeholder="Enter email" value="{{ old.email }}">
+ 
+            		{% if valErrors.email %} 
+            			<div class="invalid-feedback"> {{ valErrors.email | first }} </div>
+            		{% endif %}
+            	</div>
+
+            	<div class="form-group">
+            		<label class="form-label">Password</label>
+            		<input type="password" name="password" class="form-control {{ valErrors.password ? 'is-invalid' : '' }}" placeholder="Password">
+
+            		{% if valErrors.password %}
+            			<div class="invalid-feedback"> {{ valErrors.password | first }} </div>
+            		{% endif %}
+            	</div>
+
+            	<div class="form-group">
+            		<label class="custom-control custom-checkbox">
+            			<input type="checkbox" class="custom-control-input" checked>
+            			<span class="custom-control-label">Agree the <a href="">terms and policy</a></span>
+            		</label>
+            	</div>
+            	<div class="form-footer">
+            		<button type="submit" name="signup" class="btn btn-primary btn-block">Create new account</button>
+            	</div>
+            </div>
+
+            {{ csrf.field | raw }}
+          </form>
+          <div class="text-center text-muted">
+            Already have account? <a href="{{ path_for('auth.signin') }}">Sign in</a>
+          </div>
+        </div>
+    </div>
+
+{% endblock %}

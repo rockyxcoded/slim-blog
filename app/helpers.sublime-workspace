@@ -1,0 +1,579 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ur",
+				"username"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"show",
+				"showByCategorySlug"
+			],
+			[
+				"P",
+				"Post\tPost"
+			],
+			[
+				"Po",
+				"PostCategory\tPostCategory"
+			],
+			[
+				"url",
+				"base_url"
+			],
+			[
+				"Post",
+				"PostCategoryController"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"ec",
+				"enctype\tAttr"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"V",
+				"validation"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"C",
+				"Category"
+			],
+			[
+				"pl",
+				"placeholder\tAttr"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"rou",
+				"router"
+			],
+			[
+				"filter",
+				"filter_var"
+			],
+			[
+				"has",
+				"hashedPaasword"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"erro",
+				"error_reporting"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"v",
+				"valErrors"
+			],
+			[
+				"if",
+				"if.\tif (block)"
+			],
+			[
+				"n",
+				"name\tAttr"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"sig",
+				"signup"
+			],
+			[
+				"pat",
+				"pathFor"
+			],
+			[
+				"va",
+				"validation"
+			],
+			[
+				"f",
+				"field"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"Val",
+				"validator"
+			],
+			[
+				"ut",
+				"utf8_decode"
+			],
+			[
+				"bloc",
+				"block.\tblock (block)"
+			],
+			[
+				"for",
+				"for.\tfor (block)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"coloe",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"php",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"",
+				"A File Icon: Settings"
+			],
+			[
+				"ins",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"phpc",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"phpse",
+				"PHP: Generate Getters and Setters"
+			],
+			[
+				"ph",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"package control: re",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 218.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/cfm/config/settings.php",
+		"/var/www/html/cfm/index.php",
+		"/var/www/html/cfm/core/init.php",
+		"/var/www/html/cfm/config/database.php",
+		"/home/rockyxcoded/Httrack/BitInvest HTML Template/widgets.bitcoin.com/widget.js",
+		"/var/www/simple-bookstore-api/composer.json",
+		"/var/www/simple-bookstore-api/public/index.php",
+		"/home/rockyxcoded/.config/sublime-text-3/Packages/Colorsublime - Themes/Facebook.tmTheme",
+		"/home/rockyxcoded/.vscode/extensions/rmarganti.vsc-material-facebook-theme-1.1.0/themes/Material Facebook Gray-color-theme.json",
+		"/var/www/myblog/app/routes.php",
+		"/var/www/myblog/app/Models/Post.php",
+		"/var/www/myblog/app/Controllers/PostController.php",
+		"/var/www/myblog/resources/views/post/category.twig",
+		"/var/www/myblog/resources/views/templates/partials/navigation.twig",
+		"/home/rockyxcoded/.vscode/extensions/mehedidracula.php-namespace-resolver-1.1.0/node_modules/node-natural-sort/test/test.js",
+		"/var/www/html/laravel-cms/app/Exceptions/Handler.php",
+		"/home/rockyxcoded/.vscode/extensions/mehedidracula.php-namespace-resolver-1.1.0/node_modules/node-natural-sort/src/natural-sort.js",
+		"/home/rockyxcoded/.vscode/extensions/rmarganti.vsc-material-facebook-theme-1.1.0/themes/Material Facebook Blue-color-theme.json",
+		"/var/www/html/okhypemedia/routes/web.php",
+		"/var/www/html/okhypemedia/app/Providers/AppServiceProvider.php",
+		"/home/rockyxcoded/.cache/.fr-34NT62/app/Exceptions/Handler.php",
+		"/var/www/html/okhypemedia/public/index.php",
+		"/var/www/html/netforum/Classes/FileUploader.php",
+		"/tmp/mozilla_rockyxcoded0/EmailTakenException.php",
+		"/var/www/myblog/app/Validation/Exceptions/PostTitleExistException.php",
+		"/var/www/myblog/app/Validation/Rules/PostTitleExist.php",
+		"/var/www/myblog/app/Helpers/Config.php",
+		"/var/www/myblog/vendor/respect/validation/library/Rules/AbstractRule.php",
+		"/var/www/myblog/app/Validation/Exceptions/EmailExistException.php",
+		"/var/www/myblog/app/Models/PostCategory.php",
+		"/var/www/myblog/app/Models/User.php",
+		"/var/www/myblog/vendor/illuminate/database/Eloquent/Model.php",
+		"/var/www/myblog/resources/views/templates/partials/post/sidebar.twig",
+		"/var/www/myblog/resources/views/post/show.twig",
+		"/var/www/myblog/resources/views/post/home.twig",
+		"/var/www/myblog/app/dependencies.php",
+		"/var/www/myblog/app/Helpers/Session.php",
+		"/var/www/myblog/app/Helpers/Token.php",
+		"/var/www/myblog/resources/views/post/create.twig",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/docs/index.html",
+		"/var/www/myblog/app/Helpers/FileUploader.php",
+		"/var/www/myblog/resources/views/post/showByCategory.twig",
+		"/var/www/myblog/vendor/slim/slim/Slim/Http/UploadedFile.php",
+		"/var/www/myblog/app/Controllers/FileUploadController.php",
+		"/var/www/myblog/vendor/slim/slim/Slim/Http/Request.php",
+		"/var/www/myblog/vendor/illuminate/database/Eloquent/Builder.php",
+		"/var/www/myblog/app/helpers.php",
+		"/var/www/myblog/vendor/psr/http-message/src/UploadedFileInterface.php",
+		"/home/rockyxcoded/.config/sublime-text-3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/index.html",
+		"/var/www/myblog/resources/views/templates/partials/post",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/docs.html",
+		"/var/www/myblog/app/Controllers/PostCategoryController.php",
+		"/var/www/myblog/resources/views/post/category/create.twig",
+		"/media/rockyxcoded/Windows8_OS/wamp64/www/cfm/bitcoin_payment.php",
+		"/var/www/myblog/vendor/slim/slim/Slim/Router.php",
+		"/var/www/myblog/resources/views/post/category/edit.twig",
+		"/media/rockyxcoded/Windows8_OS/wamp64/www/cfm/bitcoin.php",
+		"/media/rockyxcoded/Windows8_OS/wamp64/www/cfm/btc.php",
+		"/var/www/myblog/app/Controllers/HomeController.php",
+		"/var/www/myblog/app/Models/PostsCategory.php",
+		"/var/www/myblog/resources/views/auth/signup.twig",
+		"/var/www/myblog/resources/views/post/category",
+		"/media/rockyxcoded/Windows8_OS/wamp64/www/netforum/core/functionds.php",
+		"/var/www/myblog/bootstrap/app.php",
+		"/var/www/myblog/resources/views/auth/password/reset.twig",
+		"/var/www/myblog/app/Controllers/Auth/AuthController.php",
+		"/var/www/myblog/app/Validation/Validate.php",
+		"/var/www/myblog/app/Controllers/Auth/AuthController1.php",
+		"/var/www/myblog/app/Validation/Rules/EmailNotExist.php",
+		"/var/www/myblog/app/Validation/Exceptions/EmailNotExistExcepton.php",
+		"/var/www/myblog/app/settings.php",
+		"/var/www/myblog/app/Authentication/Authentication.php",
+		"/var/www/myblog/resources/views/auth/password/change.twig",
+		"/var/www/myblog/.env",
+		"/var/www/myblog/vendor/respect/validation/tests/unit/Rules/ReadableTest.php",
+		"/var/www/myblog/vendor/vlucas/phpdotenv/src/Loader.php",
+		"/var/www/myblog/resources/views/auth/signin.twig",
+		"/var/www/myblog/resources/views/home.twig",
+		"/var/www/myblog/app/Middleware/Middleware.php",
+		"/var/www/myblog/resources/views/templates/partials/footer.twig",
+		"/var/www/myblog/app/Middleware/GuestMiddleware.php",
+		"/var/www/myblog/app/Middleware/AuthMiddleware.php",
+		"/var/www/myblog/vendor/slim/slim/Slim/Http/Response.php",
+		"/var/www/myblog/vendor/slim/slim/Slim/Http/StatusCode.php",
+		"/var/www/myblog/app/Validation/Rules/MatchesPassword.php",
+		"/var/www/myblog/app/Helpers/Hash.php",
+		"/var/www/myblog/vendor/respect/validation/library/Exceptions/ValidationException.php",
+		"/home/rockyxcoded/.config/sublime-text-3/Packages/User/PHP Companion.sublime-settings",
+		"/home/rockyxcoded/.config/sublime-text-3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/var/www/myblog/app/middleware.php",
+		"/var/www/myblog/app/Validation/Exceptions/MatchesPasswordException.php",
+		"/var/www/myblog/app/Validation/Rules/MatchesPasword",
+		"/var/www/myblog/resources/views/templates/partials/flash.twig",
+		"/var/www/myblog/resources/views/auth/password",
+		"/var/www/myblog/app/Middleware/FlashMessageMiddleware.php",
+		"/var/www/myblog/app/Helpers/Flash.php",
+		"/var/www/myblog/resources/views/templates/app.twig",
+		"/var/www/myblog/app/Middleware/UserAuthMiddleware.php",
+		"/var/www/myblog/app/Middleware/ViewCsrfMiddleware.php",
+		"/var/www/myblog/vendor/slim/csrf/src/Guard.php",
+		"/var/www/myblog/composer.json",
+		"/var/www/myblog/app/Validation/validator.php",
+		"/var/www/myblog/app/Validation/Rules/EmailExist.php",
+		"/var/www/myblog/app/Validation/Rules/UsernameExist.php",
+		"/var/www/myblog/app/Validation/Exceptions/UsernameExistException.php",
+		"/var/www/myblog/app/Middleware/OldInputMiddleware.php",
+		"/home/rockyxcoded/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/rockyxcoded/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/register.html",
+		"/var/www/myblog/public/assets/js/app.js",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/assets/js/core.js",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/blog.html",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/assets/js/dashboard.js",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/assets/js/require.min.js",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/login.html",
+		"/home/rockyxcoded/Desktop/tabler-dev/dist/users-list.html",
+		"/var/www/myblog/app/Middleware/ValidationErrorsMiddleware.php",
+		"/var/www/myblog/vendor/slim/twig-view/src/Twig.php",
+		"/home/rockyxcoded/.config/sublime-text-3/Packages/SidebarSeparator/SidebarSeparator.sublime-settings",
+		"/home/rockyxcoded/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/var/www/myblog/public/assets/css/app.css",
+		"/var/www/myblog/public/assets/css/bootstrap.min.css",
+		"/var/www/myblog/public/assets/js/jquery-3.2.1-slim.min.js",
+		"/var/www/myblog/vendor/illuminate/database/Capsule/Manager.php",
+		"/var/www/myblog/vendor/illuminate/support/Traits/CapsuleManagerTrait.php",
+		"/usr/share/phpmyadmin/libraries/sql.lib.php"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"slide",
+			"w-theme",
+			"btcwdgt-chart",
+			"(images/",
+			"url(images/background",
+			"(images/",
+			"images",
+			"url(images",
+			"(images",
+			"src=\"js",
+			"src",
+			"src=\"js",
+			"src",
+			"src=\"js/",
+			"src=\"plugins/",
+			"load",
+			"spin",
+			"src=\"images/",
+			"images",
+			"\"css/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 97.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "helpers.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"navia",
+				"myblog/resources/views/templates/partials/navigation.twig"
+			],
+			[
+				" nava",
+				"myblog/resources/views/templates/partials/navigation.twig"
+			],
+			[
+				"uploadedfile",
+				"myblog/vendor/slim/slim/Slim/Http/UploadedFile.php"
+			],
+			[
+				"",
+				".env"
+			],
+			[
+				"LOAD",
+				"vendor/vlucas/phpdotenv/src/Loader.php"
+			],
+			[
+				"home.",
+				"resources/views/home.twig"
+			],
+			[
+				"hash",
+				"app/Helpers/Hash.php"
+			],
+			[
+				"sign",
+				"resources/views/auth/signup.twig"
+			],
+			[
+				"gua",
+				"vendor/slim/csrf/src/Guard.php"
+			],
+			[
+				"sess",
+				"app/Helpers/Session.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

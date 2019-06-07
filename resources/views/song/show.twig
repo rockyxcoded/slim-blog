@@ -1,0 +1,23 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+	
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+            <div class="card">
+            	<img src="{{ base_url() }}/storage/songs/{{ song.thumbnail }}" alt="{{ song.thumbnail }}" class="card-img-top">
+                <div class="card-body text-left">
+                    	<ul class="list-unstyled leading-loose">
+                      	<li><i class="fe fe-edit-2 text-success	 mr-2" aria-hidden="true"></i> {{ song.title }}</li>
+                      	<li><i class="fe fe-user text-success mr-2" aria-hidden="true"></i> <strong></strong> {{ song.user.username | capitalize }}</li>
+                      	<li><i class="fe fe-calendar text-success mr-2" aria-hidden="true"></i> {{ song.created_at|time_diff }}</li>
+                      	<p>{{ song.content }}</p>
+                    </ul>
+                    <div class="text-center mt-6">
+                      <a href="{{ base_url }}/storage/songs/{{ song.file }}" class="btn btn-pill btn-success" download="{{ song.title }}">Download Now (55mb)</a>
+                    </div>
+                </div>
+            </div>
+      	</div>
+	</div>
+{% endblock %}

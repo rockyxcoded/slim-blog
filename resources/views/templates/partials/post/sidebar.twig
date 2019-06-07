@@ -1,0 +1,21 @@
+{% if auth.check %}
+	<a href="{{ path_for('post.create') }}" class="btn btn-block btn-primary mb-6">
+	    <i class="fe fe-edit-2 mr-2"></i>Create Topic
+	</a>
+{% endif %}
+
+<!-- Getting started -->
+<div class="list-group list-group-transparent mb-0">
+  <a href="../docs/index.html" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-folde"></i></span><strong>Forum Categories</strong></a>
+</div>
+<!-- Components -->
+<div class="list-group list-group-transparent mb-0">
+  {% if postCategories.all %}
+  	{% for item in postCategories.all %}
+  		<a href="{{ path_for('post.show.category.id', {'id': item.id, 'slug': item.slug }) }}" class="list-group-item list-group-item-action
+  		{% if post.category_id == item.id %}
+  		 active 
+  		{% endif %} "><span class="icon mr-3"><i class="fe fe-folder"></i></span>{{ item.title | capitalize }}</a>
+  	{% endfor %}
+  {% endif %}
+</div>

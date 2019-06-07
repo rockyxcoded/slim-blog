@@ -1,0 +1,39 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+	
+	<div class="page-header">
+		<h1 class="page-title">
+			Latest Songs
+		</h1>
+	</div>
+			<div class="row row-cards">
+				{% if songs %}
+					{% for song in songs %}
+						<div class="col-sm-6 col-lg-3">
+							<div class="card">
+			                  <a href="javascript:void(0)" class="mb-3">
+			                    <img src="{{ base_url() }}/storage/songs/{{ song.thumbnail }}" alt="{{ song.tile }}" class="card-img-top" height="200">
+			                  </a>
+			                  <div class="card-body">
+				                  	<ul class="list-unstyled leading-loose">
+				                      	<li><h4>{{ song.title }}</h4></li>
+				                      	<li><i class="fe fe-calendar text-success mr-2" aria-hidden="true"></i> {{ song.created_at|time_diff }}</li>
+				                    </ul>
+				                    <div class="text-center mt-6">
+				                      <a href="{{ path_for('song.show', {'id': song.id, 'slug': song.slug}) }}" class="btn btn-secondary btn-pill">View & Download	</a>
+				                    </div>
+			                  	</div>
+			                </div>
+						</div>
+					{% endfor %}
+				{% else %}
+					<div class="card">
+						<div class="card-body">
+							<p> No Songs </p>
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		
+{% endblock %}

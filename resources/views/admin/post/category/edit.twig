@@ -1,0 +1,36 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+
+	<div class="row row-cards row-deck">
+        <div class="col col-lg-6 mx-auto">
+            <form class="card" action="{{ path_for( 'post.category.edit', {'id': category.id }) }}" method="post">
+                <div class="card-body p-6">
+                    <div class="card-title">Edit Category</div>
+                    <div class="form-group">
+                        <label class="form-label"></label>
+                        <input type="text" name="title" class="form-control {{ valErrors.title ? 'is-invalid' : '' }}"  value="{{ category.title }}" placeholder="Enter Category Title">
+
+                        {% if valErrors.title %}
+                          <div class="invalid-feedback"> {{ valErrors.title | first }} </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label"></label>
+                        <input type="text" name="slug" class="form-control {{ valErrors.slug ? 'is-invalid' : '' }}"  value="{{ category.slug }}" placeholder="Enter Category Slug">
+
+                        {% if valErrors.slug %}
+                            <div class="invalid-feedback"> {{ valErrors.slug | first }} </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="form-footer">
+                        <button type="submit" name="submit" class="btn btn-primary btn-block">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+	
+	<div class="row">
+		<div class="col-md-8 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <img src="{{ base_url() }}/storage/videos/{{ video.thumbnail }}" alt="{{ video.thumbnail }}" class="">
+                    	<ul class="list-unstyled leading-loose">
+                      	<li><i class="fe fe-edit-2 text-success	 mr-2" aria-hidden="true"></i> {{ video.title }}</li>
+                      	<li><i class="fe fe-user text-success mr-2" aria-hidden="true"></i> <strong></strong> {{ video.user.username | capitalize }}</li>
+                      	<li><i class="fe fe-calendar text-success mr-2" aria-hidden="true"></i> {{ video.created_at|time_diff }}</li>
+                      	<p>{{ video.content }}</p>
+                    </ul>
+                    <div class="text-center mt-6">
+                      <a href="{{ base_url }}/storage/videos/{{ video.file }}" class="btn btn-pill btn-success" download="{{ video.title }}">Download Now (55mb)</a>
+                    </div>
+                </div>
+            </div>
+      	</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+	
+	<div class="page-header">
+		<h1 class="page-title">
+			Latest Songs
+		</h1>
+	</div>
+	
+			<div class="row row-cards">
+				{% if posts %}
+					{% for post in posts %}
+						<div class="col-sm-6 col-lg-3">
+							<div class="card">
+			                  <a href="javascript:void(0)" class="mb-3">
+			                    <img src="./demo/photos/grant-ritchie-338179-500.jpg" alt="Photo by Nathan Guerrero" class="card-img-top">
+			                  </a>
+			                  <div class="card-body">
+				                  	<ul class="list-unstyled leading-loose">
+				                      	<li><i class="fe fe-edit-2 text-success	 mr-2" aria-hidden="true"></i><strong>Title:</strong> </li>
+				                      	<li><i class="fe fe-user text-success mr-2" aria-hidden="true"></i> <strong>Uploaded by:</strong> Sharing Tools</li>
+				                      	<li><i class="fe fe-calendar text-success mr-2" aria-hidden="true"></i><strong>Date Upoaded:</strong> Design Tools</li>
+				                      	<li><i class="fe fe-edit text-success mr-2" aria-hidden="true"></i><strong>Description:</strong>  Private Messages</li>
+				                    </ul>
+				                    <div class="text-center mt-6">
+				                      <a href="#" class="btn btn-secondary btn-green">Download Now (55mb)</a>
+				                    </div>
+			                  	</div>
+			                </div>
+						</div>
+					{% endfor %}
+				{% else %}
+					<div class="card">
+						<div class="card-body">
+							<p> No Songs </p>
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		
+{% endblock %}

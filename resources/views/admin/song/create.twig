@@ -1,0 +1,88 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+
+	<div class="row">
+        <div class="col col-lg-6 mx-auto">
+            <div class="page-header"><h1 class="page-title">Manage Post</h1></div>
+            <form  enctype="multipart/form-data" class="card" action="{{ path_for('song.create') }}" method="post">
+                <div class="card-body p-6">
+            	   <div class="form-group">
+            		<label class="form-label">Title <span class="form-required">*</span></label>
+            		<input type="text" name="title" class="form-control {{ valErrors.title ? 'is-invalid' : '' }}"  value="{{ old.title }}" autofocus>
+
+            		{% if valErrors.title %}
+            			<div class="invalid-feedback"> {{ valErrors.title | first }} </div>
+            		{% endif %}
+            	</div>
+
+                <div class="form-group">
+                    <label class="form-label">Artiste <span class="form-required">*</span></label>
+                    <input type="text" name="artiste" class="form-control {{ valErrors.artiste ? 'is-invalid' : '' }}"  value="{{ old.artiste }}" autofocus>
+
+                    {% if valErrors.artiste %}
+                        <div class="invalid-feedback"> {{ valErrors.artiste | first }} </div>
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    <div class="form-label">Song Url (mp3) <span class="form-required">*</span></div>
+                    <div class="form-group">
+                        <input type="url" name="song" class="form-control {{ valErrors.song ? 'is-invalid' : '' }}" value="{{ old.song }}">
+
+                        {% if valErrors.song %}
+                            <div class="invalid-feedback"> {{ valErrors.song | first }} </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-label">Thumbnail Url <span class="form-required">*</span></div>
+                    <div class="form-group">
+                        <input type="url" name="thumbnail" class="form-control {{ valErrors.thumbnail ? 'is-invalid' : '' }}" value="{{  old.thumbnail }}">
+
+                        {% if valErrors.thumbnail %}
+                            <div class="invalid-feedback"> {{ valErrors.thumbnail | first }} </div>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Category <span class="form-required">*</span></label>
+                    <select name="category" class="custom-select {{ valErrors.category ? 'is-invalid' : '' }}">
+                        {% if categories %}
+                            <option value="">--Choose--</option>
+                            {% for item in categories %}
+                                <option value="{{ item.id }}">{{ item.title }}</option>
+                            {% endfor %}
+                        {% else %}
+                            <option value="">--Choose--</option>
+                        {% endif %}
+                    </select>
+
+                    {% if valErrors.category %}
+                        <div class="invalid-feedback"> {{ valErrors.category | first }} </div>
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Content <span class="form-required">*</span></label>
+                    <textarea name="content" rows="5" class="form-control {{ valErrors.content ? 'is-invalid' : '' }}">
+                    </textarea>
+
+                    {% if valErrors.content %}
+                        <div class="invalid-feedback"> {{ valErrors.content | first }} </div>
+                    {% endif %}
+                </div>
+
+                <div class="form-footer">
+                    <button type="submit" name="signup" class="btn btn-success">Submit Request</button>
+                </div>
+
+            </div>
+            {{ csrf.field | raw }}
+          </form>
+        </div>
+    </div>
+
+{% endblock %}

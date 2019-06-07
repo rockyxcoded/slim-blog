@@ -1,0 +1,17 @@
+body {
+
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.dd1:hover,
+.dd1:focus {
+	background:#f4f4f4;
+	border: 1px solid #ccc;
+}
+.card {
+	border: 1px solid transparent;
+	box-shadow: none;
+}
